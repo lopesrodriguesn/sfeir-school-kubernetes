@@ -9,5 +9,8 @@
 
 ![badge second-badge](./assets/images/certif-terraform-associate.png)
 
-<h2> Rémi <span>TETAR</span></h2>
+<h2> Benoit <span>Touron</span></h2>
+
+### GCP Trainer
+
 <!-- .element: class="icon-rule icon-first" -->
