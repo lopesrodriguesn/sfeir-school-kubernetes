@@ -3,6 +3,9 @@
 # Les ressources
 ## Les labels
 
+Notes:
+
+Présentation Rémi
 ##==##
 
 <!-- .slide: class="two-column" -->

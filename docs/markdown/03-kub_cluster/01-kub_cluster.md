@@ -117,6 +117,15 @@ un ou plusieurs volumes
 
 ![center h-700](./assets/images/kube-cni.png)
 
+Notes:
+Exemple de CNI=>
+* Bridge: Crée un pont réseau virtuel et connecte les conteneurs à ce pont.
+* Flannel: Crée un réseau overlay qui permet aux conteneurs de communiquer entre eux même s'ils se trouvent sur des machines physiques différentes.
+* Calico: Offre des fonctionnalités de sécurité réseau avancées, comme des politiques de sécurité et un pare-feu.
+* Weave Net: Crée un réseau overlay performant et facile à utiliser.
+* Cilium: Utilise eBPF pour une gestion du réseau et de la sécurité plus efficace.
+
+
 ##==##
 
 <!-- .slide:-->
@@ -149,6 +158,7 @@ Quel composant du Control Plane est responsable de la prise de décisions concer
 * etcd
 * **kube-scheduler**
 * kubelet
+
 
 ##==##
 
@@ -215,3 +225,8 @@ Quel composant est responsable de la gestion des règles réseau et de l'équili
 * **kube-proxy**
 * coredns
 * kube-controller-manager
+
+Notes:
+* conclusion: kubernetes est composé de plusieurs briques qui reproduisent applicativement les couches souvents matériels.
+* On peut retrouver des similitudes avec des hyperviseurs plus classiques.
+* Tout ca est automatisé sur des clusters locaux ou dans un cloud managé.

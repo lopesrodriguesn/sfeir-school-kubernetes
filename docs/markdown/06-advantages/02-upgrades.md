@@ -8,6 +8,10 @@ Il existe plusieurs méthodes de mise à jour des applications dans Kubernetes. 
 * Blue / Green deployment
 * Recreate
 
+Notes:
+
+Presentation NRémi
+
 ##==##
 
 <!-- .slide: class="with-code-bg-dark" -->

@@ -2,3 +2,7 @@
 
 # Les ressources
 ## Les pods
+
+Notes: 
+
+Presentation Nicolas
